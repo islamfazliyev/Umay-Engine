@@ -1,0 +1,4 @@
+C:\Users\islam\Desktop\codes\C#\wrath-engine\bin\Release\net8.0\win-x64\publish\wrath-engine.pdb
+C:\Users\islam\Desktop\codes\C#\wrath-engine\bin\Release\net8.0\win-x64\publish\cimgui.dll
+C:\Users\islam\Desktop\codes\C#\wrath-engine\bin\Release\net8.0\win-x64\publish\raylib.dll
+C:\Users\islam\Desktop\codes\C#\wrath-engine\bin\Release\net8.0\win-x64\publish\wrath-engine.exe

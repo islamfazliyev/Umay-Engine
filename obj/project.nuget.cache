@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wfwt8+QQByeK3/KXQ5KsbBLHIDubrTiUKdMFmWvvYri45NTHOAEYgrDSOfnxSxnJMe3cbzXcTwdZ+Jeh5Axhtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\islam\\Desktop\\codes\\C#\\wrath-engine\\wrath-engine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\islam\\.nuget\\packages\\imgui.net\\1.90.1.1\\imgui.net.1.90.1.1.nupkg.sha512",
+    "C:\\Users\\islam\\.nuget\\packages\\raylib-cs\\6.0.0\\raylib-cs.6.0.0.nupkg.sha512",
+    "C:\\Users\\islam\\.nuget\\packages\\rlimgui-cs\\2.0.3\\rlimgui-cs.2.0.3.nupkg.sha512",
+    "C:\\Users\\islam\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\islam\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\islam\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
