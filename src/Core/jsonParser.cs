@@ -11,6 +11,7 @@ public class GridMapData
     public List<TileData> tiles { get; set; }
     public List<playerData> playerDatas { get; set; }
     public List<DoorData> doors { get; set; }
+    public List<enemyData> enemyDatas { get; set; }
 }
 
 public class TileData
@@ -44,6 +45,16 @@ public class playerData
     public string icon {get; set;}
     public string playerTexture {get;set;}
     public bool placed {get; set;} = true;
+}
+
+public class enemyData
+{
+    public int x {get; set;}
+    public int y {get; set;}
+    public int z {get; set;}
+    public float speed {get; set;}
+    public float minDistance {get; set;}
+    public string texture {get;set;}
 }
 
 public static class TextureManager

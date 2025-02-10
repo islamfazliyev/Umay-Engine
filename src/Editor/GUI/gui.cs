@@ -14,9 +14,11 @@ namespace game
         private static byte[] _texturePathBuffer = new byte[256];
         private static string _selectedTexturePath = "";
         public static string _selectedPlayerTexturePath = "";
+        public static string _selectedEnemyeTexturePath = "";
         private static bool isFileBrowserOpen = false;
         private static List<tilebuttons> tileButtons = new List<tilebuttons>();
         private static List<doorbuttons> doorButtons = new List<doorbuttons>();
+        private static List<enemybuttons> enemyButtons = new List<enemybuttons>();
         private static Texture2D playerTextureOnGui;
         public static void drawGui()
         {
@@ -62,6 +64,12 @@ namespace game
             if (ImGui.Button("Door"))
             {
                 game.state = "door";
+                
+            }
+            ImGui.SameLine();
+            if (ImGui.Button("Enemy"))
+            {
+                game.state = "enemy";
                 
             }
             if (game.state == "cube")
@@ -114,6 +122,74 @@ namespace game
                     ImGui.SameLine();
                     if (ImGui.Button($"X##{button.name}"))
                         tileButtons.Remove(button);
+                    
+                    if (ImGui.IsItemHovered())
+                            ImGui.SetTooltip(button.name);
+                    
+                    
+                }
+                
+            }
+            if (game.state == "enemy")
+            {
+                bool enemyProp = true;
+                ImGui.InputText("Texture Path", _texturePathBuffer, (uint)_texturePathBuffer.Length);
+                string currentPath = Encoding.UTF8.GetString(_texturePathBuffer).TrimEnd('\0');
+                // Dosya tarayıcıyı aç
+                if (ImGui.Button("Select Enemy"))
+                    isFileBrowserOpen = true;
+    
+                // Texture ekleme butonu
+                if (ImGui.Button("Add Enemy") && !string.IsNullOrEmpty(_selectedEnemyeTexturePath))
+                {
+                    Texture2D texture = TextureManager.loadTexture(_selectedEnemyeTexturePath);
+                    if (texture.Width > 0)
+                    {
+                        enemyButtons.Add(new enemybuttons
+                        {
+                            name = Path.GetFileNameWithoutExtension(_selectedEnemyeTexturePath),
+                            path = _selectedEnemyeTexturePath,
+                            texture = texture,
+                            PreviewSize = new Vector2(64, 64)
+                        });
+                    }
+                    if (!string.IsNullOrEmpty(currentPath))
+                    {
+                        ImGui.Text($"Selected Texture: {currentPath}");
+                        if (File.Exists(currentPath))
+                        {
+                            ImGui.TextColored(new System.Numerics.Vector4(0, 1, 0, 1), "✓ Valid Texture");
+                            _selectedEnemyeTexturePath = currentPath;
+                        }
+                        else
+                        {
+                            ImGui.TextColored(new System.Numerics.Vector4(1, 0, 0, 1), "✗ Invalid Texture");
+                        }
+                    }
+                    
+                }
+                ImGui.BeginChild("enemy");
+                foreach (var button in enemyButtons)
+                {
+                    if (rlImGui.ImageButtonSize(button.name, button.texture, button.PreviewSize))
+                    {
+                        _selectedEnemyeTexturePath = button.path;
+                        enemyProp = true;
+
+                    }
+                    if (enemyProp)
+                    {
+                        
+                        float speed = button.enemySpeed;
+                        float minDistance = button.enemyMinDistance;
+                        ImGui.InputFloat("Speed", ref speed);
+                        button.enemySpeed = speed;
+                        ImGui.InputFloat("Minimum Distance", ref minDistance);
+                        
+                    }
+                    ImGui.SameLine();
+                    if (ImGui.Button($"X##{button.name}"))
+                        enemyButtons.Remove(button);
                     
                     if (ImGui.IsItemHovered())
                             ImGui.SetTooltip(button.name);
@@ -219,6 +295,13 @@ namespace game
                             _selectedTexturePath = _fileBrowser.SelectedPath;
                         }
                     }
+                    if (game.state == "enemy")
+                    {
+                        if (_fileBrowser.SelectedPath.Contains(".png"))
+                        {
+                            _selectedEnemyeTexturePath = _fileBrowser.SelectedPath;
+                        }
+                    }
                     if (game.state == "player")
                     {
                         _selectedPlayerTexturePath = _fileBrowser.SelectedPath;
@@ -244,6 +327,14 @@ namespace game
     public class doorbuttons{
         public string name { get; set; }
         public string path { get; set; }
+        public Texture2D texture { get; set; }
+        public Vector2 PreviewSize { get; set; } = new Vector2(64, 64);
+    }
+    public class enemybuttons{
+        public string name { get; set; }
+        public string path { get; set; }
+        public float enemySpeed {get;set;}
+        public float enemyMinDistance {get;set;}
         public Texture2D texture { get; set; }
         public Vector2 PreviewSize { get; set; } = new Vector2(64, 64);
     }

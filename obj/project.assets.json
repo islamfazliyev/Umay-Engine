@@ -293,11 +293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\islam\\Desktop\\codes\\C#\\wrath-engine\\wrath-engine.csproj",
-      "projectName": "wrath-engine",
-      "projectPath": "C:\\Users\\islam\\Desktop\\codes\\C#\\wrath-engine\\wrath-engine.csproj",
+      "projectUniqueName": "C:\\Users\\islam\\Desktop\\codes\\projects\\Umay-Engine\\umay-engine.csproj",
+      "projectName": "umay-engine",
+      "projectPath": "C:\\Users\\islam\\Desktop\\codes\\projects\\Umay-Engine\\umay-engine.csproj",
       "packagesPath": "C:\\Users\\islam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\islam\\Desktop\\codes\\C#\\wrath-engine\\obj\\",
+      "outputPath": "C:\\Users\\islam\\Desktop\\codes\\projects\\Umay-Engine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,44 +1,43 @@
 #version 330
 
 in vec2 fragTexCoord;
+in vec4 fragColor;
 out vec4 finalColor;
 
-uniform sampler2D texture0; // Ana render texture
-uniform sampler2D noiseTexture; // Gürültü texture'ı
-uniform float time; // Zaman değişkeni
-uniform vec2 resolution; // Ekran çözünürlüğü
-
-// Yazı efekti için yeni uniform'lar
-uniform vec3 textColor = vec3(0.0, 1.0, 0.0); // Yeşil VHS yazı rengi
-uniform float textSpeed = 2.0; // Yazı kayma hızı
-uniform float textSize = 0.05; // Yazı boyutu
+// The two textures: the original scene and the bloom texture.
+uniform sampler2D sceneTex;
+uniform sampler2D bloomTex;
+uniform float bloomIntensity;  // Controls the strength of the bloom
 
 void main()
 {
-    // Gürültü efekti
-    vec2 uv = fragTexCoord;
-    vec4 noise = texture(noiseTexture, uv * 2.0 + vec2(time * 0.3, time * 0.2));
+    // Sample the scene and bloom textures
+    vec4 sceneColor = texture(sceneTex, fragTexCoord);
+    vec4 bloomColor = texture(bloomTex, fragTexCoord) * bloomIntensity;
     
-    // RGB kanal kaymaları (VHS efekti)
-    vec2 offset = vec2(noise.r * 0.02, noise.g * 0.02);
-    float r = texture(texture0, uv + offset).r;
-    float g = texture(texture0, uv).g;
-    float b = texture(texture0, uv - offset).b;
-    vec3 color = vec3(r, g, b);
+    // Combine the two (simple additive blending)
+    vec4 combined = sceneColor + bloomColor;
     
-    // Yazı efekti
-    float textTime = time * textSpeed;
-    vec2 textUV = uv * vec2(3.0, 1.0) + vec2(-textTime, 0.0);
+    // Quantize with dithering: adjust levels for a posterized look.
+    float levels = 8.0;
     
-    // Yazı deseni (örnek: "ERROR 404" tekrarı)
-    float textPattern = sin(textUV.x * 100.0) * sin(textUV.y * 20.0 + textTime);
-    float textMask = smoothstep(0.3, 0.7, abs(textPattern)) * noise.a;
+    // A 4x4 Bayer matrix (values normalized in the [0, 1] range)
+    float bayer[16] = float[16](
+         0.0,    0.5,    0.125,  0.625,
+         0.75,   0.25,   0.875,  0.375,
+         0.1875, 0.6875, 0.0625, 0.5625,
+         0.9375, 0.4375, 0.8125, 0.3125
+    );
     
-    // Final renk kombinasyonu
-    color = mix(color, textColor, textMask * 0.5); // Yazıyı ana renge karıştır
+    // Use the fragment's screen coordinates modulo 4 to index the Bayer matrix
+    ivec2 pos = ivec2(mod(gl_FragCoord.xy, 4.0));
+    int index = pos.y * 4 + pos.x;
+    float dither = bayer[index];
+    // Remap dither value to a small bias
+    float bias = (dither - 0.5) / levels;
     
-    // Film gren efekti (opsiyonel)
-    color += noise.rgb * 0.1;
+    // Apply quantization with the bias: scale, round, and re-map to [0, 1]
+    vec3 ditheredColor = floor(combined.rgb * levels + bias + 0.5) / (levels - 1.0);
     
-    finalColor = vec4(color, 1.0);
+    finalColor = vec4(ditheredColor, combined.a);
 }

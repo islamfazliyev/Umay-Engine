@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wrath-engine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47190ed67c1f0b7465fc483f7e29dcd1dba14f57")]
 [assembly: System.Reflection.AssemblyProductAttribute("wrath-engine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wrath-engine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
