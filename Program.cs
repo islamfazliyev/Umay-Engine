@@ -21,9 +21,12 @@ namespace game{
             rlImGui.Setup(true);
             TileEditor tileEditor = new TileEditor();
             render3D render = new render3D();
+            testEditor testEditor = new testEditor();
             render.Begin();
             tileEditor.Begin();
+            testEditor.Begin();
             bool tileMode = true;
+            bool testMode = false;
             while(!Raylib.WindowShouldClose()){
                 
                 
@@ -37,16 +40,27 @@ namespace game{
                 if (Raylib.IsKeyDown(KeyboardKey.F2))
                 {
                     tileMode = true;
-                }               
+                }              
+                if (Raylib.IsKeyDown(KeyboardKey.F3))
+                {
+                    testMode = true;
+                }              
                 
 
-                if (tileMode)
+                if (!testMode)
                 {
-                    tileEditor.Update();
+                    if (tileMode)
+                    {
+                        tileEditor.Update();
+                    }
+                    if (!tileMode)
+                    {
+                        render.Update();
+                    }
                 }
-                if (!tileMode)
+                else
                 {
-                    render.Update();
+                    testEditor.Update();
                 }
             }
             Raylib.CloseWindow();

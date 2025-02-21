@@ -124,102 +124,46 @@ namespace game{
             Rlgl.SetTexture(0);
         }
 
-        // Draw cube with texture piece applied to all faces
-        public static void DrawCubeTextureRec(
-            Texture2D texture,
-            Rectangle source,
-            Vector3 position,
-            float width,
-            float height,
-            float length,
-            Color color
-        )
+        public static void DrawPlaneBetweenPoints(Vector3 point1, Vector3 point2, float height, Color color)
         {
-            float x = position.X;
-            float y = position.Y;
-            float z = position.Z;
-            float texWidth = (float)texture.Width;
-            float texHeight = (float)texture.Height;
+            // Calculate midpoint
+            Vector3 midpoint = new Vector3(
+                (point1.X + point2.X) / 2,
+                (point1.Y + point2.Y) / 2,
+                (point1.Z + point2.Z) / 2
+            );
 
-            // Set desired texture to be enabled while drawing following vertex data
-            Rlgl.SetTexture(texture.Id);
+            // Calculate distance
+            float width = Vector3.Distance(point1, point2);
 
-            // We calculate the normalized texture coordinates for the desired texture-source-rectangle
-            // It means converting from (tex.Width, tex.Height) coordinates to [0.0f, 1.0f] equivalent
+            // Calculate angle (only for 2D rotation on the X-Z plane)
+            float angle = (float)Math.Atan2(point2.Z - point1.Z, point2.X - point1.X);
+
+            Rlgl.PushMatrix();
+            Rlgl.Translatef(midpoint.X, midpoint.Y, midpoint.Z);
+            Rlgl.Rotatef(angle * (180.0f / (float)Math.PI), 0.0f, 1.0f, 0.0f);
+
             Rlgl.Begin(DrawMode.Quads);
             Rlgl.Color4ub(color.R, color.G, color.B, color.A);
 
             // Front face
-            Rlgl.Normal3f(0.0f, 0.0f, 1.0f);
-            Rlgl.TexCoord2f(source.X / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y - height / 2, z + length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y - height / 2, z + length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y + height / 2, z + length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y + height / 2, z + length / 2);
+            Rlgl.Normal3f(0.0f, 1.0f, 0.0f);
+            Rlgl.Vertex3f(-width / 2, -height / 2, 0);
+            Rlgl.Vertex3f(width / 2, -height / 2, 0);
+            Rlgl.Vertex3f(width / 2, height / 2, 0);
+            Rlgl.Vertex3f(-width / 2, height / 2, 0);
 
             // Back face
-            Rlgl.Normal3f(0.0f, 0.0f, -1.0f);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y - height / 2, z - length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y + height / 2, z - length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y + height / 2, z - length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y - height / 2, z - length / 2);
-
-            // Top face
-            Rlgl.Normal3f(0.0f, 1.0f, 0.0f);
-            Rlgl.TexCoord2f(source.X / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y + height / 2, z - length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y + height / 2, z + length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y + height / 2, z + length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y + height / 2, z - length / 2);
-
-            // Bottom face
             Rlgl.Normal3f(0.0f, -1.0f, 0.0f);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y - height / 2, z - length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y - height / 2, z - length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y - height / 2, z + length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y - height / 2, z + length / 2);
+            Rlgl.Vertex3f(-width / 2, -height / 2, 0);
+            Rlgl.Vertex3f(-width / 2, height / 2, 0);
+            Rlgl.Vertex3f(width / 2, height / 2, 0);
+            Rlgl.Vertex3f(width / 2, -height / 2, 0);
 
-            // Right face
-            Rlgl.Normal3f(1.0f, 0.0f, 0.0f);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y - height / 2, z - length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y + height / 2, z - length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y + height / 2, z + length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x + width / 2, y - height / 2, z + length / 2);
-
-            // Left face
-            Rlgl.Normal3f(-1.0f, 0.0f, 0.0f);
-            Rlgl.TexCoord2f(source.X / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y - height / 2, z - length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, (source.Y + source.Height) / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y - height / 2, z + length / 2);
-            Rlgl.TexCoord2f((source.X + source.Width) / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y + height / 2, z + length / 2);
-            Rlgl.TexCoord2f(source.X / texWidth, source.Y / texHeight);
-            Rlgl.Vertex3f(x - width / 2, y + height / 2, z - length / 2);
-            
             Rlgl.End();
-
-            Rlgl.SetTexture(0);
-            
+            Rlgl.PopMatrix();
         }
+        
     }
     
     

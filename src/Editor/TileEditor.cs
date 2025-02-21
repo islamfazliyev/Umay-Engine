@@ -91,7 +91,6 @@ class TileEditor
         }
         foreach (enemyData enemyData1 in game.game.map.MapData.enemyDatas)
         {
-            
             Vector2 tilePosition = new Vector2(enemyData1.x * gridSize, enemyData1.y * gridSize);
             Texture2D textures = TextureManager.loadTexture(enemyData1.texture);
             textures.Width = gridSize;
@@ -102,7 +101,6 @@ class TileEditor
         {
             if (game.game.state == "cube")
             {
-                Console.WriteLine("a");
 
                 string selectedTexturePath = gui.GetSelectedTexturePath();
                 TileData tile = new TileData();
@@ -119,11 +117,11 @@ class TileEditor
                     });
                     mapWriter mapWriter = new mapWriter();
                     mapWriter.WriteMap(game.game.map.MapData);
+                    Console.WriteLine(game.game.map.MapData.tiles.Count);
                 }
             }
             if (game.game.state == "door")
             {
-                    Console.WriteLine("a");
 
                 string selectedTexturePath = gui.GetSelectedTexturePath();
                 TileData tile = new TileData();
@@ -145,8 +143,6 @@ class TileEditor
             }
             if (game.game.state == "player" && !isPlayerPlaced)
             {
-                Console.WriteLine("a");
-
                 playerData playerData = new playerData
                 {
                     x = (int)-snappedPosition.X,
@@ -162,17 +158,22 @@ class TileEditor
             }
             if (game.game.state == "enemy")
             {
-                Console.WriteLine("a");
-                enemyData enemyData = new enemyData
+
+                if (game.game.map.MapData.enemyDatas.FindAll(x => x.x == -snappedPosition.X && x.y == -snappedPosition.Y && x.z == currentZ).Count == 0)
                 {
-                    x = (int)-snappedPosition.X,
-                    y = (int)-snappedPosition.Y,
-                    z = currentZ,
-                    texture = gui._selectedEnemyeTexturePath,
-                };
-                game.game.map.MapData.enemyDatas.Add(enemyData);
-                mapWriter mapWriter = new mapWriter();
-                mapWriter.WriteMap(game.game.map.MapData);
+                    enemyData enemyData = new enemyData
+                    {
+                        x = (int)-snappedPosition.X,
+                        y = (int)-snappedPosition.Y,
+                        z = currentZ,
+                        texture = gui._selectedEnemyeTexturePath,
+                        
+                    };
+                    game.game.map.MapData.enemyDatas.Add(enemyData);
+                    mapWriter mapWriter = new mapWriter();
+                    mapWriter.WriteMap(game.game.map.MapData);
+                }
+                
             }
             
             

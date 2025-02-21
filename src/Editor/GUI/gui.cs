@@ -5,6 +5,7 @@ using ImGuiNET;
 using System.Numerics;
 using System.Net.Http.Json;
 using System.Runtime.Versioning;
+using System.Diagnostics;
 
 namespace game
 {
@@ -15,13 +16,16 @@ namespace game
         private static string _selectedTexturePath = "";
         public static string _selectedPlayerTexturePath = "";
         public static string _selectedEnemyeTexturePath = "";
+        public static string buildPath = "";
         private static bool isFileBrowserOpen = false;
         private static List<tilebuttons> tileButtons = new List<tilebuttons>();
         private static List<doorbuttons> doorButtons = new List<doorbuttons>();
         private static List<enemybuttons> enemyButtons = new List<enemybuttons>();
         private static Texture2D playerTextureOnGui;
+        private static bool build = false;
         public static void drawGui()
         {
+
             guiStyle.ApplyStyle();
             _fileBrowser = new FileBrowser(initialPath: "assets", allowedExtensions: new string[] { "png", "json" });
             if (ImGui.BeginMainMenuBar())
@@ -35,7 +39,23 @@ namespace game
                     isFileBrowserOpen=true;
                     
                 }
+                if (ImGui.MenuItem("Build Game"))
+                {
+                    build = true;
+                }
             }
+            if (build)
+            {
+                ImGui.Begin("Build");
+                ImGui.InputText("Build Path", ref buildPath, 256);
+                if (ImGui.Button("Build Game"))
+                {
+                    buildGame buildGame = new buildGame();
+                    buildGame.Main(buildPath);
+                }
+                ImGui.End();
+            }
+            
             ImGui.Begin("Tile Mode");
             
             // if (ImGui.Button("Tile Mode"))
@@ -185,6 +205,7 @@ namespace game
                         ImGui.InputFloat("Speed", ref speed);
                         button.enemySpeed = speed;
                         ImGui.InputFloat("Minimum Distance", ref minDistance);
+                        button.enemyMinDistance = minDistance;
                         
                     }
                     ImGui.SameLine();

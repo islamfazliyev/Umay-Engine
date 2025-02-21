@@ -102,6 +102,6 @@ public class Player
             _isGrounded = false;
 
         // Kamerayı oyuncu pozisyonuna bağla
-        _camera.Position = _position;
+        _camera.Position = _position + new Vector3(0, 1.8f, 0);
     }
 }

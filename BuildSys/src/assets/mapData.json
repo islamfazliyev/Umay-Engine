@@ -1,0 +1,10 @@
+{
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "gridDepth": 0,
+  "tileSize": 10,
+  "tiles": [],
+  "playerDatas": [],
+  "doors": [],
+  "enemyDatas": []
+}

@@ -9,23 +9,7 @@
       "y": -1,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -33,119 +17,23 @@
       "y": -1,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -6,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -7,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -6,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -6,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -7,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -7,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -2,
-      "y": -3,
+      "y": -1,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -1,
-      "y": -3,
+      "y": -1,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -153,7 +41,7 @@
       "y": -2,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -161,7 +49,7 @@
       "y": -2,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -169,7 +57,7 @@
       "y": -2,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -177,7 +65,7 @@
       "y": -2,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -185,7 +73,15 @@
       "y": -2,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -193,47 +89,47 @@
       "y": -2,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -7,
+      "x": -5,
+      "y": -1,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -3,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
       "y": -4,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -7,
+      "x": -5,
       "y": -5,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -7,
+      "x": -5,
       "y": -6,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -7,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -6,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -241,55 +137,127 @@
       "y": -7,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -4,
-      "y": -7,
+      "y": -11,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -3,
-      "y": -7,
+      "y": -11,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -2,
-      "y": -7,
+      "y": -11,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -1,
-      "y": -7,
+      "y": -11,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -1,
+      "x": 0,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
       "y": -6,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -1,
+      "x": 0,
       "y": -5,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -297,31 +265,47 @@
       "y": -4,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
       "x": 0,
-      "y": -5,
+      "y": -3,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": 0,
-      "y": -6,
+      "x": -4,
+      "y": -3,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": 0,
-      "y": -7,
+      "x": -3,
+      "y": -3,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -3,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -329,7 +313,7 @@
       "y": -4,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -337,7 +321,7 @@
       "y": -4,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -345,7 +329,7 @@
       "y": -4,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -353,47 +337,15 @@
       "y": -4,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -5,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -6,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -6,
+      "x": -4,
       "y": -5,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -6,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -401,7 +353,135 @@
       "y": -6,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -6,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -5,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -5,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -5,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -409,7 +489,39 @@
       "y": -6,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
@@ -417,62 +529,557 @@
       "y": -6,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Tile_09-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
-      "y": -5,
-      "z": -1,
+      "x": -5,
+      "y": -1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Bricks_18-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -3,
-      "y": -5,
-      "z": -1,
+      "x": -5,
+      "y": -2,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Bricks_18-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -4,
-      "y": -5,
-      "z": -1,
+      "x": -5,
+      "y": -3,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -4,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -5,
       "y": -5,
-      "z": -1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_10-128x128.png",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -6,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -7,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -8,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -9,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -10,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -5,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -10,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -9,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -8,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -7,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -6,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -4,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -3,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -3,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -3,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -3,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -4,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -5,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -4,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -4,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -4,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -5,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -5,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -5,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -6,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -6,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -6,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -6,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -7,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -7,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -7,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -7,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -8,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -9,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -10,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -10,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -10,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -10,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -9,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -8,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -8,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -8,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -3,
+      "y": -9,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -9,
+      "z": 1,
+      "type": "cube",
+      "texture": "assets\\Bricks_18-128x128.png",
       "color": "WHITE"
     }
   ],
   "playerDatas": [
     {
-      "x": -1,
-      "y": -2,
+      "x": -2,
+      "y": -3,
       "z": 0,
       "icon": "assets/built-in/playericon.png",
-      "playerTexture": "",
+      "playerTexture": "assets\\hand1.png",
       "placed": true
     }
   ],
-  "doors": [],
-  "enemyDatas": [
+  "doors": [
     {
-      "x": -4,
-      "y": -3,
+      "x": -3,
+      "y": -6,
       "z": 0,
-      "speed": 7,
-      "minDistance": 400,
-      "texture": "assets\\2680482-middle.png"
+      "icon": "assets/built-in/Door.png",
+      "texture": "assets\\bigdoor2.png",
+      "color": {}
     }
-    
-  ]
+  ],
+  "enemyDatas": []
 }
