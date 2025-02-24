@@ -3,5 +3,18 @@
   "gridHeight": 1,
   "gridDepth": 0,
   "tileSize": 10,
-  "tiles": []
+  "tiles": [],
+
+  "playerDatas": [
+    {
+      "x": -2,
+      "y": -3,
+      "z": 0,
+      "icon": "assets/built-in/playericon.png",
+      "playerTexture": "assets\\hand1.png",
+      "placed": true
+    }
+  ],
+  "doors": [],
+  "enemyDatas": []
 }

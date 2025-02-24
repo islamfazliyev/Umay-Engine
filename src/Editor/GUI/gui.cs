@@ -17,17 +17,36 @@ namespace game
         public static string _selectedPlayerTexturePath = "";
         public static string _selectedEnemyeTexturePath = "";
         public static string buildPath = "";
-        private static bool isFileBrowserOpen = false;
+        public static bool isFileBrowserOpen = false;
+        private static mapBuildParser mapBuildParser = new mapBuildParser();
         private static List<tilebuttons> tileButtons = new List<tilebuttons>();
         private static List<doorbuttons> doorButtons = new List<doorbuttons>();
         private static List<enemybuttons> enemyButtons = new List<enemybuttons>();
+        //private static List<buildData> BuildData = new List<buildData>();
         private static Texture2D playerTextureOnGui;
         private static bool build = false;
+        private enum mapSelectionEnum
+        {
+            Builder,
+            Loader
+        }
+        private static mapSelectionEnum mapSelection = mapSelectionEnum.Loader; 
+        private static int currentMapIndex = 0;
         public static void drawGui()
         {
 
             guiStyle.ApplyStyle();
             _fileBrowser = new FileBrowser(initialPath: "assets", allowedExtensions: new string[] { "png", "json" });
+            ImGui.GetIO().ConfigFlags |= ImGuiConfigFlags.DockingEnable;
+            ImGui.DockSpaceOverViewport(ImGui.GetMainViewport(), ImGuiDockNodeFlags.PassthruCentralNode);
+
+            // Tile Editor penceresi (sol taraf)
+            ImGui.SetNextWindowPos(new Vector2(0, 0), ImGuiCond.FirstUseEver); // İlk açılışta sol üst köşeye yerleştir
+            ImGui.SetNextWindowSize(new Vector2(ImGui.GetMainViewport().Size.X * 0.5f, ImGui.GetMainViewport().Size.Y), ImGuiCond.FirstUseEver);
+
+            // Tile Mode penceresi (sağ taraf)
+            ImGui.SetNextWindowPos(new Vector2(ImGui.GetMainViewport().Size.X * 0.5f, 0), ImGuiCond.FirstUseEver); // Sağ tarafa yerleştir
+            ImGui.SetNextWindowSize(new Vector2(ImGui.GetMainViewport().Size.X * 0.5f, ImGui.GetMainViewport().Size.Y), ImGuiCond.FirstUseEver);
             if (ImGui.BeginMainMenuBar())
             {
                 if (ImGui.MenuItem("Save Map"))
@@ -37,7 +56,7 @@ namespace game
                 if (ImGui.MenuItem("Load Map"))
                 {
                     isFileBrowserOpen=true;
-                    
+                    mapSelection = mapSelectionEnum.Loader;
                 }
                 if (ImGui.MenuItem("Build Game"))
                 {
@@ -47,6 +66,17 @@ namespace game
             if (build)
             {
                 ImGui.Begin("Build");
+                ImGui.BeginChild("Maps", new Vector2(200, 200));
+                foreach (mapListData maps in mapBuildParser.MapData.mapListDatas)
+                {
+                    ImGui.Selectable($"{maps.mapIndex}: {maps.mapName}");
+                }
+                ImGui.EndChild();
+                if (ImGui.Button("Add Map"))
+                {
+                    isFileBrowserOpen = true;
+                    mapSelection = mapSelectionEnum.Builder;
+                }
                 ImGui.InputText("Build Path", ref buildPath, 256);
                 if (ImGui.Button("Build Game"))
                 {
@@ -55,17 +85,8 @@ namespace game
                 }
                 ImGui.End();
             }
-            
+
             ImGui.Begin("Tile Mode");
-            
-            // if (ImGui.Button("Tile Mode"))
-            // {
-            //     Console.WriteLine("Tile Mode");
-            // }
-            // if (ImGui.Button("Object Mode"))
-            // {
-            //     Console.WriteLine("Object Mode");
-            // }
             if (ImGui.Button("Clear All Tiles"))
             {
                 game.map.MapData.tiles.RemoveAll(x => true);
@@ -291,6 +312,8 @@ namespace game
                 
                 ImGui.EndChild();
             }
+            ImGui.End();
+
             if (isFileBrowserOpen)
             {
                 bool fileSelected = _fileBrowser.Draw();
@@ -299,7 +322,22 @@ namespace game
                     if (_fileBrowser.SelectedPath.Contains(".json"))
                     {
                        
-                        game.map.JsonPath = _fileBrowser.SelectedPath;
+                        switch (mapSelection)
+                        {
+                            case mapSelectionEnum.Builder:
+                                mapBuildParser.MapData.mapListDatas.Add(new mapListData{
+                                    mapIndex = currentMapIndex += 1,
+                                    mapName = _fileBrowser.SelectedPath,
+                                    mapPath = _fileBrowser.SelectedPath
+                                });
+                                
+                                mapBuidWriter mapBuidWriter = new mapBuidWriter();
+                                mapBuidWriter.WriteBuildMap(mapBuildParser.MapData);
+                                return;
+                            case mapSelectionEnum.Loader:
+                                game.map.JsonPath = _fileBrowser.SelectedPath;
+                                return;
+                        }
                         
                     }
                     if (game.state == "cube")
@@ -330,11 +368,7 @@ namespace game
                     }
                     isFileBrowserOpen = false;
                 }
-            }
-            
-
-            
-            ImGui.End();
+            }            
         }
         public static string GetSelectedTexturePath() => _selectedTexturePath;
     }
@@ -359,6 +393,5 @@ namespace game
         public Texture2D texture { get; set; }
         public Vector2 PreviewSize { get; set; } = new Vector2(64, 64);
     }
-
     
 }

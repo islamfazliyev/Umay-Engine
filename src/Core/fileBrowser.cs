@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Numerics;
+using game;
 using ImGuiNET;
 
 public class FileBrowser
@@ -42,7 +44,7 @@ public class FileBrowser
         bool fileSelected = false;
         
         ImGui.Begin("File Browser");
-
+        ImGui.BeginChild("Files", new Vector2(400, 300));
         // Geri düğmesi (Üst dizine çık)
         if (ImGui.Button("←") && Directory.GetParent(_currentDirectory) != null)
         {
@@ -72,7 +74,12 @@ public class FileBrowser
                 fileSelected = true;
             }
         }
-
+        ImGui.EndChild();
+        if (ImGui.Button("Cancel"))
+        {
+            _selectedPath = "";
+            gui.isFileBrowserOpen = false;
+        }
         ImGui.End();
         
         return fileSelected;

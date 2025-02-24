@@ -9,23 +9,7 @@
       "y": -1,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
@@ -33,735 +17,2471 @@
       "y": -1,
       "z": -1,
       "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -2,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -1,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -5,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -8,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -9,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -10,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -11,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -11,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -11,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -11,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -11,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -11,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -10,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -9,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -8,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -5,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -3,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -4,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -5,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -8,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -9,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -10,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -10,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -10,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -10,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -9,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -8,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -8,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -5,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -5,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -5,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -7,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -8,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -9,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -9,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -6,
-      "z": -1,
-      "type": "cube",
-      "texture": "assets\\Tile_09-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -1,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -2,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -3,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -4,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -5,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -6,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -7,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -8,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -9,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -10,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -5,
-      "y": -11,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -11,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -11,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -11,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -11,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -11,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -10,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -9,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -8,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -7,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -6,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -5,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -4,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -3,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -2,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": 0,
-      "y": -1,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -1,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -1,
-      "z": 0,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -3,
       "y": -1,
-      "z": 0,
+      "z": -1,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -4,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -4,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -46,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -41,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -41,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -40,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -46,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -59,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -60,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -59,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -5,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -2,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -1,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -2,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -2,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -3,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -4,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -5,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -6,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -46,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -46,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -18,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -60,
+      "y": -18,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -60,
+      "y": -19,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -59,
+      "y": -19,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -19,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -20,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -20,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -20,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -21,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -21,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -21,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -22,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -23,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -23,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -24,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -25,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -26,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -27,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -27,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -28,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -29,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -28,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -26,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -23,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -21,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -20,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -19,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -18,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -60,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -40,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -36,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -35,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -68,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -71,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -73,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -74,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -72,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -69,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -77,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -78,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -74,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -34,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -33,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -32,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -70,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -73,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -74,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -73,
+      "y": -18,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -70,
+      "y": -18,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -18,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -35,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -29,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -27,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -28,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -35,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -67,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -70,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -71,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -69,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -65,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -33,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -30,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -30,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -32,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -34,
+      "y": -11,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -36,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -40,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -8,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -46,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -40,
+      "y": -25,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -26,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -27,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -28,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -29,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -36,
+      "y": -30,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -36,
+      "y": -31,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -36,
+      "y": -32,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -35,
+      "y": -32,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -34,
+      "y": -33,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -33,
+      "y": -33,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -33,
+      "y": -34,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -32,
+      "y": -35,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -31,
+      "y": -35,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -31,
+      "y": -36,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -31,
+      "y": -37,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -32,
+      "y": -38,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -32,
+      "y": -39,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -33,
+      "y": -39,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -34,
+      "y": -40,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -35,
+      "y": -40,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -35,
+      "y": -41,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -36,
+      "y": -42,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -42,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -42,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -42,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -24,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -25,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -27,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -28,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -29,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -30,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -29,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -30,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -31,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -32,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -41,
+      "y": -32,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -40,
+      "y": -33,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -34,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -35,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -36,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -37,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -38,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -39,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -40,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -41,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -41,
+      "y": -28,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -27,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -26,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -25,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -24,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": 0,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -1,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -3,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -4,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -5,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -5,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -6,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
+      "y": -6,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -6,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -59,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -7,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -65,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -66,
+      "y": -9,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -66,
+      "y": -10,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -68,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -69,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -69,
+      "y": -14,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -70,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -71,
+      "y": -16,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -71,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -72,
+      "y": -17,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -69,
+      "y": -15,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -65,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -62,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -60,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -59,
+      "y": -12,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -41,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -40,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -13,
+      "z": -1,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
@@ -769,317 +2489,1206 @@
       "y": -1,
       "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -4,
       "y": -2,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -3,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -4,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -4,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -3,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -2,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -4,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 0,
+      "y": -3,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -9,
+      "y": 0,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -8,
       "y": -2,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
+      "x": -9,
       "y": -2,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -1,
-      "y": -2,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
+      "x": -10,
       "y": -3,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
+      "x": -11,
       "y": -3,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -3,
-      "y": -3,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -3,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
+      "x": -12,
       "y": -4,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -4,
-      "y": -5,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
+      "x": -13,
       "y": -4,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
-      "y": -4,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -4,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
+      "x": -14,
       "y": -5,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
-      "y": -5,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -5,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
+      "x": -15,
       "y": -6,
       "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -1,
+      "x": -16,
       "y": -6,
       "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -18,
+      "y": -7,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -19,
+      "y": -8,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -20,
+      "y": -9,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -21,
+      "y": -9,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -22,
+      "y": -10,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -22,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -23,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -23,
+      "y": -12,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -23,
+      "y": -13,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -23,
+      "y": -15,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -22,
+      "y": -16,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -22,
+      "y": -17,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -21,
+      "y": -18,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -21,
+      "y": -19,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -21,
+      "y": -20,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -20,
+      "y": -21,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -20,
+      "y": -22,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -19,
+      "y": -22,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -19,
+      "y": -23,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -19,
+      "y": -24,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -18,
+      "y": -24,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -18,
+      "y": -25,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -17,
+      "y": -25,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -16,
+      "y": -25,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -15,
+      "y": -25,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -14,
+      "y": -25,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -13,
+      "y": -25,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
       "x": -2,
+      "y": -25,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -6,
+      "y": -26,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -7,
+      "y": -26,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -8,
+      "y": -26,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -9,
+      "y": -27,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -10,
+      "y": -27,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -12,
+      "y": -27,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -13,
+      "y": -28,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -14,
+      "y": -28,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -15,
+      "y": -28,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -16,
+      "y": -29,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -17,
+      "y": -29,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -18,
+      "y": -29,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -19,
+      "y": -29,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -20,
+      "y": -29,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -21,
+      "y": -29,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -21,
+      "y": -30,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -23,
+      "y": -30,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -24,
+      "y": -30,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -25,
+      "y": -30,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -26,
+      "y": -30,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -28,
+      "y": -31,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -29,
+      "y": -31,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -31,
+      "y": -31,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -32,
+      "y": -31,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -34,
+      "y": -31,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -35,
+      "y": -31,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -37,
+      "y": -32,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -38,
+      "y": -32,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -39,
+      "y": -32,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -40,
+      "y": -32,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -42,
+      "y": -32,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -32,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -32,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": -33,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -33,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -43,
+      "y": -34,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -54,
+      "y": -31,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": 0,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": 0,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -2,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
+      "y": -3,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
+      "y": -4,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -55,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -56,
       "y": -6,
       "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -3,
+      "x": -58,
+      "y": -8,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -59,
+      "y": -9,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -60,
+      "y": -10,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -10,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -12,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -12,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -44,
+      "y": 0,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -45,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -46,
+      "y": -1,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -47,
+      "y": -3,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -48,
+      "y": -3,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -49,
+      "y": -4,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -4,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -50,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -51,
+      "y": -5,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -52,
       "y": -6,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -1,
+      "x": -53,
+      "y": -6,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -53,
       "y": -7,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
+      "x": -54,
       "y": -7,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -3,
-      "y": -7,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -7,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
+      "x": -54,
       "y": -8,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -4,
-      "y": -9,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -4,
-      "y": -10,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -10,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -2,
-      "y": -10,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -10,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
-      "y": -9,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -1,
+      "x": -55,
       "y": -8,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
-      "y": -8,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
-      "y": -8,
-      "z": 1,
-      "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
-      "color": "WHITE"
-    },
-    {
-      "x": -3,
+      "x": -56,
       "y": -9,
-      "z": 1,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
       "color": "WHITE"
     },
     {
-      "x": -2,
-      "y": -9,
-      "z": 1,
+      "x": -56,
+      "y": -10,
+      "z": 0,
       "type": "cube",
-      "texture": "assets\\Bricks_18-128x128.png",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -57,
+      "y": -10,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -58,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -59,
+      "y": -11,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -60,
+      "y": -12,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -61,
+      "y": -12,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -63,
+      "y": -13,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -64,
+      "y": -13,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -66,
+      "y": -15,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -67,
+      "y": -16,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -68,
+      "y": -17,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -69,
+      "y": -19,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -70,
+      "y": -19,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -71,
+      "y": -19,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -72,
+      "y": -20,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -73,
+      "y": -20,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -74,
+      "y": -20,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -75,
+      "y": -21,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -76,
+      "y": -21,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -77,
+      "y": -21,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -78,
+      "y": -21,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": -79,
+      "y": -21,
+      "z": 0,
+      "type": "cube",
+      "texture": "assets\\Bricks_02-128x128.png",
+      "color": "WHITE"
+    },
+    {
+      "x": 29,
+      "y": -29,
+      "z": -1,
+      "type": "cube",
+      "texture": "",
+      "color": "WHITE"
+    },
+    {
+      "x": 36,
+      "y": -29,
+      "z": -1,
+      "type": "cube",
+      "texture": "",
       "color": "WHITE"
     }
   ],
   "playerDatas": [
     {
-      "x": -2,
-      "y": -3,
-      "z": 0,
+      "x": 38,
+      "y": -29,
+      "z": -1,
       "icon": "assets/built-in/playericon.png",
-      "playerTexture": "assets\\hand1.png",
+      "playerTexture": "",
       "placed": true
     }
   ],
   "doors": [
     {
-      "x": -3,
-      "y": -6,
-      "z": 0,
+      "x": 34,
+      "y": -29,
+      "z": -1,
       "icon": "assets/built-in/Door.png",
-      "texture": "assets\\bigdoor2.png",
+      "texture": "",
+      "color": {}
+    },
+    {
+      "x": 37,
+      "y": -29,
+      "z": 1,
+      "icon": "assets/built-in/Door.png",
+      "texture": "",
+      "color": {}
+    },
+    {
+      "x": 30,
+      "y": -28,
+      "z": -3,
+      "icon": "assets/built-in/Door.png",
+      "texture": "",
       "color": {}
     }
   ],
-  "enemyDatas": []
+  "enemyDatas": [
+    {
+      "x": 33,
+      "y": -29,
+      "z": -1,
+      "speed": 0,
+      "minDistance": 0,
+      "texture": ""
+    },
+    {
+      "x": 35,
+      "y": -29,
+      "z": -1,
+      "speed": 0,
+      "minDistance": 0,
+      "texture": ""
+    }
+  ]
 }

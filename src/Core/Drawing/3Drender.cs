@@ -5,25 +5,22 @@ using Raylib_cs;
 class render3D
 {
     Camera3D camera = new Camera3D();
-    shaders shaders = new shaders();
+    public shaders shaders = new shaders();
     private List<enemy> _enemies = new List<enemy>();
-    RenderTexture2D renderTexture = Raylib.LoadRenderTexture(Raylib.GetScreenWidth(), Raylib.GetScreenHeight());
     private bool isDoorOpened;
 
     public void Begin()
     {
         shaders.LoadResources();
-
-        Camera3D camera = new Camera3D();
         camera.Position = new Vector3(4.0f, 2.0f, 4.0f);
         camera.Target = new Vector3(0.0f, 1.8f, 0.0f);
         camera.Up = new Vector3(0.0f, 1.0f, 0.0f);
         camera.FovY = 60.0f;
         camera.Projection = CameraProjection.Perspective;
-        CameraMode cameraMode = CameraMode.FirstPerson;
+        //CameraMode cameraMode = CameraMode.FirstPerson;
     }
 
-    public void Update()
+    public void Update(RenderTexture2D targetTexture)
     {
         float time = (float)Raylib.GetTime();
         float deltaTime = Raylib.GetFrameTime();
@@ -35,12 +32,16 @@ class render3D
         );
                     // Raylib.UpdateCamera(ref camera, CameraMode.Free);
         game.game.player.Update(deltaTime);
-        Raylib.HideCursor();
-        Raylib.DisableCursor();
+        if (Raylib.IsKeyPressed(KeyboardKey.R))
+        {
+            game.game.player.Reload();
+        }
+        //Raylib.HideCursor();
+        //Raylib.DisableCursor();
                     // 3D sahneyi renderTexture'a çiz
-        Raylib.BeginDrawing();
+        //Raylib.BeginDrawing();
 
-        Raylib.BeginTextureMode(renderTexture);
+        Raylib.BeginTextureMode(targetTexture);
                     //Raylib.ClearBackground(Color.Black);
                     
         Raylib.ClearBackground(Color.Black);
@@ -137,24 +138,8 @@ class render3D
                 Raylib.DrawTextureRec(PlayerTexture, playerRec, new Vector2(Raylib.GetScreenWidth() -400, Raylib.GetScreenHeight()-501), Color.RayWhite);
             }
         }
-                    
-                    //Raylib.EndMode2D();
         Raylib.EndTextureMode();
-
-                    // Shader ile renderTexture'ı ekrana çiz
-        Raylib.BeginShaderMode(shaders.vhsShader);        
-        Raylib.SetShaderValue(shaders.vhsShader, 
-        Raylib.GetShaderLocation(shaders.vhsShader, "time"), 
-        time, ShaderUniformDataType.Float);
-                    
-                    // // RenderTexture'ı ekrana çiz
-        Raylib.DrawTextureRec(
-            renderTexture.Texture,
-            new Rectangle(0, 0, renderTexture.Texture.Width, -renderTexture.Texture.Height),
-            Vector2.Zero,
-            Color.White
-        );
         Raylib.EndShaderMode();
-        Raylib.EndDrawing();
+        //Raylib.EndDrawing();
     }
 }

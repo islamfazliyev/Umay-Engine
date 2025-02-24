@@ -1,0 +1,9 @@
+{
+  "mapListDatas": [
+    {
+      "mapIndex": 1,
+      "mapName": "assets\\mapData.json",
+      "mapPath": "assets\\mapData.json"
+    }
+  ]
+}

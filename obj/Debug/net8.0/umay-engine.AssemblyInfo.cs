@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("umay-engine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c74f2036c2803052168eee499834475f29cc33a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41b06b06dcea85b4351c362ba2d6defa302a42b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("umay-engine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("umay-engine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

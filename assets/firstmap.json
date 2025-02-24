@@ -3236,5 +3236,18 @@
       "texture": "assets/tn056.png",
       "color": "WHITE"
     }
-  ]
+  ],
+
+  "playerDatas": [
+    {
+      "x": -2,
+      "y": -3,
+      "z": 0,
+      "icon": "assets/built-in/playericon.png",
+      "playerTexture": "assets\\hand1.png",
+      "placed": true
+    }
+  ],
+  "doors": [],
+  "enemyDatas": []
 }

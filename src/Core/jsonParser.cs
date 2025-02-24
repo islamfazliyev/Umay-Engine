@@ -2,6 +2,19 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Raylib_cs;
 
+
+public class buildData
+{
+    public List<mapListData> mapListDatas {get;set;}
+}
+
+public class mapListData
+{
+    public int mapIndex {get; set;}
+    public string mapName {get; set;}    
+    public string mapPath {get; set;} 
+}
+
 public class GridMapData
 {
     public int gridWidth { get; set; }
@@ -182,6 +195,8 @@ public class mapParser
 
 public class mapWriter()
 {
+    public GridMapData MapData { get; private set; }
+    private string jsonPath = "assets/mapData.json";
     public void WriteMap(GridMapData mapData)
     {
         try
@@ -191,12 +206,95 @@ public class mapWriter()
                 WriteIndented = true
             };
             string jsonContent = JsonSerializer.Serialize(mapData, options);
-            File.WriteAllText("assets/mapData.json", jsonContent);
+            File.WriteAllText(jsonPath, jsonContent);
         }
         catch (JsonException ex)
         {
             Console.WriteLine("JSON yazma hatası: " + ex.Message);
         }
     }
+}
+
+public class mapBuildParser
+{
+    public buildData MapData { get; private set; }
+    private string jsonPath = "assets/mapBuildData.json";
+    public mapBuildParser()
+    {
+        LoadMapData();
+        try
+        {
+            string jsonContent = File.ReadAllText(jsonPath);
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            MapData = JsonSerializer.Deserialize<buildData>(jsonContent, options);
+            Console.WriteLine(jsonPath);
+            
+            if (MapData?.mapListDatas == null)
+            {
+                Console.WriteLine("JSON içeriği boş!");
+                //MapData = new MapData { map = new mapProp() };
+            }
+        }
+        catch (FileNotFoundException ex)
+        {
+            Console.WriteLine("Dosya bulunamadı: " + ex.Message);
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine("JSON okuma hatası: " + ex.Message);
+        }
+    }
+    private void LoadMapData()
+    {
+        try
+        {
+            string jsonContent = File.ReadAllText(jsonPath);
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            MapData = JsonSerializer.Deserialize<buildData>(jsonContent, options);
+            Console.WriteLine(jsonPath);
+            Console.WriteLine($"Loaded map data from {jsonPath}");
+            Console.WriteLine($"Number of tiles loaded: {MapData?.mapListDatas?.Count ?? 0}");
+        }
+        catch (FileNotFoundException ex)
+        {
+            Console.WriteLine("File not found: " + ex.Message);
+            MapData = new buildData { mapListDatas = new List<mapListData>() }; // Boş map oluştur
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine("JSON parsing error: " + ex.Message);
+            MapData = new buildData { mapListDatas = new List<mapListData>() }; // Boş map oluştur
+        }
+    }
+}
+
+public class mapBuidWriter()
+{
+    public buildData BuildData { get; private set; }
+    private string jsonPath = "assets/mapBuildData.json";
+
+    public void WriteBuildMap(buildData BuildData)
+    {
+        try
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            string jsonContent = JsonSerializer.Serialize(BuildData, options);
+            File.WriteAllText(jsonPath, jsonContent);
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine("JSON yazma hatası: " + ex.Message);
+        }
+    }
+
 }
 

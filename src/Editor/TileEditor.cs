@@ -19,8 +19,8 @@ class TileEditor
 
     public void Begin()
     {
-        camera2D.Target = new Vector2(0.0f, 0.0f);
-        camera2D.Offset = new Vector2(0.0f, 0.0f);
+        camera2D.Target = new Vector2(0, 0); // Merkeze odaklan
+        camera2D.Offset = new Vector2(0, 0);
         camera2D.Rotation = 0.0f;
         camera2D.Zoom = 1.0f;
         isPlayerPlaced = false;
@@ -29,10 +29,11 @@ class TileEditor
         gridSize = 20;
     }
 
-    public void Update()
+    public void Update(Vector2 WindowPosition)
     {
-        Raylib.BeginDrawing();
-        Raylib.ClearBackground(Raylib_cs.Color.Black);
+        
+        //Raylib.BeginDrawing();
+        Raylib.ClearBackground(Color.Black);
         Raylib.ShowCursor();
           
         if (Raylib.IsKeyPressed(KeyboardKey.Up))
@@ -45,7 +46,7 @@ class TileEditor
             currentZ -= 1;
             Console.WriteLine(currentZ);
         }
-        placeHolder.position = Raylib.GetMousePosition();
+        placeHolder.position = new Vector2(Raylib.GetMousePosition().X - WindowPosition.X, Raylib.GetMousePosition().Y - WindowPosition.Y);
         Vector2 snappedPosition = placeHolder.GetSnappedPosition(gridSize);
         placeHolder.width = gridSize;
         placeHolder.height = gridSize;
@@ -97,7 +98,7 @@ class TileEditor
             textures.Height = gridSize;        
             Raylib.DrawTextureRec(textures, placeHolderRect, -tilePosition, Color.White);
         }
-        if (InputManager.IsMouseAvailable() && Raylib.IsMouseButtonDown(MouseButton.Left))
+        if (Raylib.IsMouseButtonDown(MouseButton.Left))
         {
             if (game.game.state == "cube")
             {
@@ -197,10 +198,7 @@ class TileEditor
                         
             }
             Raylib.DrawRectangleV(snappedPosition * gridSize, new Vector2(gridSize, gridSize), Raylib.Fade(placeHolder.color, 0.9f));
-        rlImGui.Begin();
-        gui.drawGui();
-        rlImGui.End();   
         Raylib.EndMode2D();
-        Raylib.EndDrawing();
+        //Raylib.EndDrawing();
     }
 }
